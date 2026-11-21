@@ -67,6 +67,10 @@ The response arrived in 24 text fragments. Reassembled output: # Vector Search
 
 Vector search finds similar items by converting data into numerical vectors and comparing their distances in multi-dimensional space. It's commonly used to find semantically similar text, images, or other content by measuring how close their vector representations are to each other.
 
+In a second test, I used the Streamlit interface to generate a warehouse update. The response preserved all three pallet counts, but it added that the held pallets required relabeling. The prompt did not specify that next step, so I would verify it before sharing the update with a manager.
+
+![Response Streaming interface showing the warehouse prompt and the generated two-sentence update](i3-streaming-ui.png)
+
 ## S4 · Content blocking
 
 I configured a custom blocked word, waited for the draft to become ready, and evaluated an input containing the exact marker. I also tested a normal delivery request.
