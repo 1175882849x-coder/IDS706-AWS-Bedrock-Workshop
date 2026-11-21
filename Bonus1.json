@@ -1,0 +1,7 @@
+[
+  {
+    "temperature": 0,
+    "input": "Extract shipment ID and delay in hours as JSON. Shipment DU-510 arrived three hours late.",
+    "output": "```json\n{\n  \"shipment_id\": \"DU-510\",\n  \"delay_hours\": 3\n}\n```"
+  }
+]

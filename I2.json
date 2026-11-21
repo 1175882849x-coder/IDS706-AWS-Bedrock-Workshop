@@ -1,0 +1,7 @@
+[
+  {
+    "temperature": 0,
+    "input": "Summarize in two bullets, preserving counts and cause: The warehouse received 120 pallets. Fourteen were held because their batch labels were unreadable. The remaining 106 cleared inspection.",
+    "output": "\u2022 120 pallets received; 14 held due to unreadable batch labels\n\u2022 106 pallets cleared inspection"
+  }
+]

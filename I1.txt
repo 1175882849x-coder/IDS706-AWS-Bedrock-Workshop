@@ -1,0 +1,93 @@
+----QUERY:----
+Amazon Bedrock document search application capabilities
+----RAG CONTENT----
+What is Amazon Bedrock?
+Amazon Bedrock is a fully managed service that offers a choice of industry leading foundation models (FMs) along with a broad set of capabilities that you need to build generative AI applications, simplifying development with security, privacy, and responsible AI. With the comprehensive capabilities of Amazon Bedrock, you can experiment with a variety of top FMs, customize them privately with your data using techniques such as fine-tuning and retrieval-augmented generation (RAG), and create managed agents that execute complex business tasks—from booking travel and processing insurance claims to creating ad campaigns and managing inventory—all without writing any code. Since Amazon Bedrock is serverless, you don't have to manage any infrastructure, and you can securely integrate and deploy generative AI capabilities into your applications using the AWS services you are already familiar with.
+
+
+What are the most common use cases for Amazon Bedrock?
+You can quickly get started with use cases:
+
+    Create new pieces of original content, such as short stories, essays, social media posts, and web page copy.
+    Search, find, and synthesize information to answer questions from a large corpus of data.
+    Create realistic and artistic images of various subjects, environments, and scenes from language prompts.
+    Help customers find what they’re looking for with more relevant and contextual product recommendations than word matching.
+    Get a summary of textual content such as articles, blog posts, books, and documents to get the gist without having to read the full content.
+    Suggest products that match shopper preferences and past purchases
+
+
+
+Which vector databases are supported by Knowledge Bases for Amazon Bedrock?
+Knowledge Bases for Amazon Bedrock takes care of the entire ingestion workflow of converting your documents into embeddings (vector) and storing the embeddings in a specialized vector database. Knowledge Bases for Amazon Bedrock supports popular databases for vector storage, including vector engine for Amazon OpenSearch Serverless, Pinecone, Redis Enterprise Cloud, Amazon Aurora (coming soon), and MongoDB (coming soon). If you do not have an existing vector database, Amazon Bedrock creates an OpenSearch Serverless vector store for you.
+
+
+What SDKs are supported for Amazon Bedrock?
+Amazon Bedrock supports SDKs for runtime services. iOS and Android SDKs, as well as Java, JS, Python, CLI, .Net, Ruby, PHP, Go, and C++.
+
+----FINAL RESPONSE----
+Based on the information about Amazon Bedrock, here's what it can do for a document search application:
+
+## Key Capabilities for Document Search
+
+**1. Retrieval-Augmented Generation (RAG)**
+- Amazon Bedrock supports RAG, which allows you to search, find, and synthesize information to answer questions from a large corpus of documents
+- This enables more intelligent and contextual search results rather than simple keyword matching
+
+**2. Knowledge Bases for Amazon Bedrock**
+- Automatically converts your documents into embeddings (vector representations)
+- Stores these embeddings in a specialized vector database for efficient semantic search
+- Supports multiple vector database options:
+  - Vector engine for Amazon OpenSearch Serverless
+  - Pinecone
+  - Redis Enterprise Cloud
+  - Amazon Aurora (coming soon)
+  - MongoDB (coming soon)
+- If you don't have an existing vector database, Amazon Bedrock can create an OpenSearch Serverless vector store for you
+
+**3. Document Summarization**
+- Can summarize textual content from articles, blog posts, books, and documents
+- Helps users quickly understand content without reading the full text
+
+**4. Intelligent Search & Synthesis**
+- Goes beyond simple text matching to provide more relevant and contextual results
+- Leverages foundation models to understand the semantic meaning of queries and documents
+
+**5. Serverless Architecture**
+- No infrastructure management required
+- Secure integration with AWS services you already use
+- Easy to deploy and scale
+
+This makes Amazon Bedrock ideal for building sophisticated document search applications that understand user intent and provide contextually relevant results.
+Based on the information about Amazon Bedrock, here's what it can do for a document search application:
+
+## Key Capabilities for Document Search
+
+**1. Retrieval-Augmented Generation (RAG)**
+- Amazon Bedrock supports RAG, which allows you to search, find, and synthesize information to answer questions from a large corpus of documents
+- This enables more intelligent and contextual search results rather than simple keyword matching
+
+**2. Knowledge Bases for Amazon Bedrock**
+- Automatically converts your documents into embeddings (vector representations)
+- Stores these embeddings in a specialized vector database for efficient semantic search
+- Supports multiple vector database options:
+  - Vector engine for Amazon OpenSearch Serverless
+  - Pinecone
+  - Redis Enterprise Cloud
+  - Amazon Aurora (coming soon)
+  - MongoDB (coming soon)
+- If you don't have an existing vector database, Amazon Bedrock can create an OpenSearch Serverless vector store for you
+
+**3. Document Summarization**
+- Can summarize textual content from articles, blog posts, books, and documents
+- Helps users quickly understand content without reading the full text
+
+**4. Intelligent Search & Synthesis**
+- Goes beyond simple text matching to provide more relevant and contextual results
+- Leverages foundation models to understand the semantic meaning of queries and documents
+
+**5. Serverless Architecture**
+- No infrastructure management required
+- Secure integration with AWS services you already use
+- Easy to deploy and scale
+
+This makes Amazon Bedrock ideal for building sophisticated document search applications that understand user intent and provide contextually relevant results.

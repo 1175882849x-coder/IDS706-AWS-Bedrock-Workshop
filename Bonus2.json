@@ -1,0 +1,12 @@
+[
+  {
+    "temperature": 0,
+    "input": "Write a one-sentence customer update about a freight shipment delayed by fog.",
+    "output": "# Shipment Update\n\nYour freight shipment has been delayed due to heavy fog conditions affecting visibility and safety on the route; we expect delivery by [date] and will notify you of any further updates."
+  },
+  {
+    "temperature": 0.8,
+    "input": "Write a one-sentence customer update about a freight shipment delayed by fog.",
+    "output": "We regret to inform you that your freight shipment has been delayed due to dense fog conditions affecting visibility at the port, and we expect to resume operations and process your delivery as soon as weather conditions improve."
+  }
+]

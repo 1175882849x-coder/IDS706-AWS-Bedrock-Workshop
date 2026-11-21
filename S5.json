@@ -1,0 +1,38 @@
+{
+  "input": "Contact the warehouse at dispatch@example.com.",
+  "action": "NONE",
+  "outputs": [],
+  "assessments": [
+    {
+      "invocationMetrics": {
+        "guardrailProcessingLatency": 102,
+        "usage": {
+          "topicPolicyUnits": 0,
+          "contentPolicyUnits": 1,
+          "wordPolicyUnits": 1,
+          "sensitiveInformationPolicyUnits": 0,
+          "sensitiveInformationPolicyFreeUnits": 0,
+          "contextualGroundingPolicyUnits": 0,
+          "contentPolicyImageUnits": 0,
+          "automatedReasoningPolicyUnits": 0,
+          "automatedReasoningPolicies": 0
+        },
+        "guardrailCoverage": {
+          "textCharacters": {
+            "guarded": 46,
+            "total": 46
+          }
+        }
+      },
+      "appliedGuardrailDetails": {
+        "guardrailId": "[workshop guardrail]",
+        "guardrailVersion": "DRAFT",
+        "guardrailArn": "[workshop resource]",
+        "guardrailOrigin": [
+          "REQUEST"
+        ],
+        "guardrailOwnership": "SELF"
+      }
+    }
+  ]
+}

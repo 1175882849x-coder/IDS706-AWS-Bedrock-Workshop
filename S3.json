@@ -1,0 +1,10 @@
+{
+  "message": {
+    "role": "assistant",
+    "content": [
+      {
+        "text": "A delivery confirmation is a notification that verifies a package has been successfully received at its destination address."
+      }
+    ]
+  }
+}
